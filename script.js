@@ -1,1 +1,1 @@
-DOCUMENT.getElementsByName("ipv4").text = "___.___.___.___"
+document.getElementsByName("ipv4").text = "___.___.___.___"
