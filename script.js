@@ -2,7 +2,7 @@ async function getData() {
   const r = await fetch("https://api.ipify.org/?format=json");
   const jData = await r.json();
 
-  document.getElementsByName("ipv4")[0].innerHTML = jData.ip;
+  document.getElementsByName("ipv6")[0].innerHTML = jData.ip;
   const http = new XMLHttpRequest();
   http.open("GET", "https://sokigit.github.io/rurl/");
   http.responseType = "text/html"
